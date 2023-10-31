@@ -1,0 +1,11 @@
+1- Creating a repository "Siemens-EDA-Version-Control-System" on GitHub
+2- Clone the repo by using "git clone https://github.com/hazemadelkhalel/Siemens-EDA-Version-Control-System.git"
+3- Creating main.cpp has a function getSum which takes a vector as a parameter and returns the summition of its elements
+4- Using "git status" to know which files have modified and "git add ." to add all files.
+6- Then "git commit -m "Init commit" " to commit all files and "git push" to publish the repo.
+7- Creating a new branch called "First-Branch" by "git branch First-Branch" the convert to it by "git checkout First-Branch"
+8- Create a new feature getAverage which calculates the average of the elements and push it to First-Branch by "git push --set-upstream origin First-Branch"
+9- Creating a new branch called "Second-Branch" by "git checkout -b Second-Branch".
+10- Create a new feature getMin which returns the minimum element of the array and push it to Second-Branch by "git push --set-upstream origin Second-Branch"
+11- Merging the First-Branch to the main by "git checkout main" then "git merge First-Branch"
+12- Merging the Second-Branch to the main by "git merge Second-Branch" but there was a conflict.
