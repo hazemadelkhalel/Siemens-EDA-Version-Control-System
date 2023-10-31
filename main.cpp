@@ -21,7 +21,8 @@ double getAverage(vector<int>& elements){
 
 int main(){
     vector<int> array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    cout << getSum(array);
-
+    cout << "Sum: " << getSum(array) << '\n';
+    cout << "Average: " << getAverage(array) << '\n';
+    
     return 0;
 }
